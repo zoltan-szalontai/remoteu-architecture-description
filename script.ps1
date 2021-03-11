@@ -78,7 +78,7 @@ function createRelationships {
             id = "$(($script:id++))";
             tags = 'Relationship';
             sourceId = "$componentId";
-            destinationId = "$(getSystemByName 'XO Jira')";
+            destinationId = "$(getSystemByName 'Crossover Jira')";
             description = 'Get student details'
         }
     }
@@ -87,7 +87,7 @@ function createRelationships {
             id = "$(($script:id++))";
             tags = 'Relationship';
             sourceId = "$componentId";
-            destinationId = "$(getSystemByName 'XO Chat')";
+            destinationId = "$(getSystemByName 'Crossover Chat')";
             description = 'Send error message'
         }
     }
